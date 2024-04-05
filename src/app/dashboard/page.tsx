@@ -1,4 +1,5 @@
 import React from 'react'
+import LineChart from './line-chart'
 
 // Note: Only the function with "export default" as preceed will be displayed from this "page.tsx" file.
 function BarChart() {
@@ -13,6 +14,8 @@ export default function Dashboard() {
         <div>
             <h1>Dashboard</h1>
             <BarChart />
+            {/* Imported & displayed from collocated file */}
+            <LineChart />
         </div>
     )
 }
